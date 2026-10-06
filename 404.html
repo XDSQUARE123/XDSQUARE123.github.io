@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Page not found | The Green Table</title>
+    <meta name="robots" content="noindex" />
+    <style>
+      @font-face {
+        font-family: "Bodoni Moda";
+        src: url("/fonts/bodoni-moda.woff2") format("woff2");
+        font-weight: 400 700;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Montserrat";
+        src: url("/fonts/montserrat.woff2") format("woff2");
+        font-weight: 300 600;
+        font-display: swap;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 2rem;
+        background: #0d1414;
+        color: #f6f3ec;
+        font-family: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+        font-weight: 300;
+        text-align: center;
+      }
+      img { width: 6rem; height: auto; opacity: 0.75; }
+      .eyebrow {
+        margin: 2rem 0 0;
+        font-size: 0.6875rem;
+        font-weight: 500;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        color: #c7a96b;
+      }
+      h1 {
+        margin: 1.5rem 0 0;
+        font-family: "Bodoni Moda", ui-serif, Georgia, serif;
+        font-weight: 400;
+        font-size: clamp(2rem, 7vw, 3.5rem);
+        line-height: 1.05;
+      }
+      p {
+        margin: 1.75rem auto 0;
+        max-width: 34rem;
+        line-height: 1.8;
+        color: rgba(246, 243, 236, 0.6);
+      }
+      a {
+        display: inline-block;
+        margin-top: 2.5rem;
+        padding: 1rem 2.25rem;
+        border: 1px solid rgba(199, 169, 107, 0.55);
+        color: #c7a96b;
+        font-size: 0.6875rem;
+        font-weight: 500;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: background-color 0.4s ease, color 0.4s ease;
+      }
+      a:hover { background: #c7a96b; color: #0d1414; }
+    </style>
+  </head>
+  <body>
+    <div>
+      <img src="/brand/mark-gold.png" alt="" aria-hidden="true" />
+      <p class="eyebrow">Not found</p>
+      <h1>That table is not set.</h1>
+      <p>
+        The page you were looking for has moved or never existed. The restaurant,
+        however, is still here.
+      </p>
+      <a href="/">Back to the beginning</a>
+    </div>
+  </body>
+</html>
